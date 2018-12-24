@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Drone application server dependencies.",
+  "main": "index.js",
+  "author": "Zaine Kingi",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "waait": "^1.0.2"
+  }
+}
